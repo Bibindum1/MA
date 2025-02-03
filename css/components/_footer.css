@@ -1,0 +1,45 @@
+.footer {
+    max-width: 1120px;
+    width: 100%;
+    gap: 520px;
+    display: flex;
+    padding-top: 130px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+
+.footer__contact {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.footer__link {
+    font-weight: 500;
+    font-size: 21px;
+    font-family: "DM Sans", sans-serif;
+    color: var(--black);
+    transition: color .4s, background-color .4s;
+}
+
+.footer__link:hover{
+    color: var(--blue);
+}
+.footer__link:focus {
+    color: var(--white);
+    background-color: var(--grey);
+}
+
+.footer__list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.footer__text {
+    color: var(--blue);
+    font-size: 21px;
+}

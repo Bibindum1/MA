@@ -1,0 +1,29 @@
+.home{
+    position: relative;
+    margin-bottom: 136px;
+}
+.home__inner{
+    display: flex;
+    gap: 124px;
+    align-items: center;
+    
+    
+}
+
+.home__title{
+    width: 500px;
+    font-size: 60px;
+
+}
+
+
+.home__text{
+  width: 400px;
+  font-size: 32px;
+}
+
+.home__content{
+    max-width: 480px ;
+    
+}
+
