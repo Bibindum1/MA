@@ -27,7 +27,7 @@
 
     width: 400px;
     font-size: 32px;
-    color: var(--grey);
+    color: var(--gray);
 }
 
 .home__text:not(:last-child) {
@@ -52,7 +52,7 @@
 }
 
 @media (max-width: 1100px) {
-    
+
     .home__text {
         font-size: 20px;
     }
@@ -144,7 +144,10 @@
     }
 
     .home__title {
-        font-size: 20px;
+        font-size: 28px;
+        max-width: 362px;
+        line-height: 125%;
+        margin: 0 auto 20px;
         margin-bottom: 20px;
     }
 
@@ -164,35 +167,3 @@
 
 }
 
-@media(max-width: 369px) {
-
-    .home__inner {
-        flex-direction: column;
-        gap: 15px;
-        align-items: center;
-    }
-
-    .home__text {
-        font-size: 10px;
-        width: auto;
-    }
-
-    .home__title {
-        font-size: 15px;
-        margin-bottom: 15px;
-    }
-
-    .home__img {
-        object-fit: cover;
-        width: 200px;
-        height: 250px;
-    }
-
-    .home__text:not(:last-child) {
-        margin-bottom: 10px;
-    }
-
-    .home__content {
-        text-align: center;
-    }
-}

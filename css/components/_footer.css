@@ -1,5 +1,5 @@
 .footer {
-    
+
     max-width: 1120px;
     width: 100%;
     gap: 520px;
@@ -35,7 +35,7 @@
 .footer__link:focus {
 
     color: var(--white);
-    background-color: var(--grey);
+    background-color: var(--gray);
 }
 
 .footer__list {

@@ -44,7 +44,7 @@
 .header__link:focus {
 
     color: var(--white);
-    background-color: var(--grey);
+    background-color: var(--gray);
 }
 
 @media(max-width:992px) {

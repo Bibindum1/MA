@@ -1,5 +1,5 @@
 .cases__top {
-    
+
     display: flex;
     gap: 116px;
     margin-bottom: 70px;
@@ -22,7 +22,7 @@
     font-size: 32px;
     letter-spacing: -1.8px;
     margin-bottom: -44px;
-    color: var(--grey);
+    color: var(--gray);
     max-width: 580px;
     width: 100%;
     gap: 70px;
@@ -89,7 +89,7 @@
 .cases__subtext {
 
     display: flex;
-    color: var(--grey);
+    color: var(--gray);
     max-width: 315px;
     margin-bottom: 167px;
     letter-spacing: -0.51px;
@@ -121,5 +121,5 @@
 .cases__link:focus {
 
     color: var(--white);
-    background-color: var(--grey);
+    background-color: var(--gray);
 }
