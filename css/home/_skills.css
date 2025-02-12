@@ -1,4 +1,5 @@
 .skills__text {
+
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -7,6 +8,7 @@
 }
 
 .skills__subtitle {
+
     font-size: 18px;
     font-weight: 500;
     max-width: 125px;
@@ -14,6 +16,7 @@
 }
 
 .skills__items {
+
     max-width: 625px;
     display: flex;
     font-family: var(--fontInter);
@@ -23,14 +26,45 @@
 }
 
 .skills__item {
+
     justify-content: space-between;
     display: flex;
     gap: 60px;
 }
 
 .skills__line {
+
     background-color: black;
     height: 2px;
     width: 100%;
     max-width: 100%;
+}
+
+@media(max-width:760px) {
+
+    .skills__items {
+        gap: 60px;
+    }
+}
+
+@media(max-width:610px) {
+
+    .skills__items {
+        gap: 40px;
+    }
+
+    .skills__item {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .skills__subtitle {
+        margin: 0 auto;
+        size: 15px;
+    }
+
+    .skills__text {
+        size: 15px;
+    }
 }

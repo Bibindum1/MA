@@ -1,4 +1,5 @@
 @font-face {
+
     font-family: 'DM Sans';
     src: url('../../fonts/DMSans-Medium.woff2') format('woff2'),
         url('../../fonts/DMSans-Medium.woff') format('woff');
@@ -8,6 +9,7 @@
 }
 
 @font-face {
+
     font-family: 'DM Sans';
     src: url('../../fonts/DMSans-Regular.woff2') format('woff2'),
         url('../../fonts/DMSans-Regular.woff') format('woff');
@@ -17,6 +19,7 @@
 }
 
 @font-face {
+
     font-family: 'Inter 28pt';
     src: url('../../fonts/Inter28pt-Medium.woff2') format('woff2'),
         url('../../fonts/Inter28pt-Medium.woff') format('woff');
@@ -26,6 +29,7 @@
 }
 
 @font-face {
+    
     font-family: 'Inter 28pt';
     src: url('../../fonts/Inter28pt-Regular.woff2') format('woff2'),
         url('../../fonts/Inter28pt-Regular.woff') format('woff');

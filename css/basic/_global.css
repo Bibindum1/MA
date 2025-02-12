@@ -1,8 +1,10 @@
 .html{
+
     overflow: hidden;
 }
 
 .body {
+
     background-color: var(--white);
     color: var(--black);
     font-size:18px;
@@ -14,6 +16,7 @@
 }
 
 .container{
+    
     max-width: 1150px;
     margin: 0 auto;
     padding: 0 15px;
