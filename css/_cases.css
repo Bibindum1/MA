@@ -123,3 +123,140 @@
     color: var(--white);
     background-color: var(--gray);
 }
+
+@media(max-width:1200px) {
+    .cases__title {
+        font-size: 55px;
+    }
+
+    .cases__text {
+        font-size: 28px;
+
+    }
+
+    .cases__arrow {
+        margin-bottom: 100px;
+    }
+}
+
+@media(max-width:1000px) {
+    .cases__title {
+        font-size: 50px;
+        margin-bottom: 100px;
+    }
+
+    .cases__text {
+        font-size: 24px;
+    }
+
+    .cases__img {
+        width: 480px;
+    }
+
+    .cases__card {
+        gap: 100px;
+        padding-bottom: 80px;
+    }
+
+    .cases {
+        margin-bottom: 100px;
+    }
+}
+
+@media(max-width:900px) {
+    .cases__title {
+        font-size: 45px;
+
+    }
+
+    .cases__text {
+        font-size: 23px;
+    }
+
+}
+
+@media(max-width:860px) {
+    .cases__top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .cases__title {
+        text-align: center;
+        margin-bottom: 0;
+        font-size: 44px;
+    }
+
+    .cases__text {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .cases__arrow {
+        margin: 0 auto 50px;
+        width: 28px;
+    }
+
+    .cases__it {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+        padding-bottom: 80px;
+    }
+
+    .cases__link {
+        margin: 0 auto;
+    }
+
+    .cases__img {
+        width: 550px;
+    }
+
+    .cases__card {
+        gap: 45px;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+@media(max-width:400px) {
+    .cases__title {
+        font-size: 34px;
+        line-height: 1.1;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .cases__text{
+        font-size: 20px;
+    }
+
+    .cases__arrow{
+        width: 22px;
+    }
+
+    .cases__content{
+        font-size: 16px;
+        margin-bottom: 28px;
+    }
+
+    .cases{
+        margin-bottom: 60px;
+    }
+
+    .cases__card{
+        gap: 60px;
+    }
+
+    .cases__items{
+        padding-bottom: 60px;
+        gap: 30px;
+    }
+}

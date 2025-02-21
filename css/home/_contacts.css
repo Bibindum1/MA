@@ -27,7 +27,7 @@
     font-size: 32px;
 }
 
-.contacts__text img {
+.contacts__text_img {
 
     display: inline-block;
 }
@@ -35,4 +35,30 @@
 .contacts__suptext{
     
     font-size: 18px;
+}
+
+@media(max-width: 710px){
+
+    .contacts__inner{
+        flex-direction: column;
+        font-size: 20px;
+        margin-bottom: 40px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contacts__text_img {
+        display: block;
+        transform: rotate(90deg);
+        margin: 15px auto 25px;
+    }
+
+    .contacts__text {
+        font-size: 20px;
+    }
+
+    .contacts__link{
+        font-size: 20px;
+    }
+
 }

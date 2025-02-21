@@ -57,6 +57,7 @@
         flex-direction: column;
         text-align: center;
         gap: 30px;
+        margin-top: 80px;
     }
 
     .skills__subtitle {
@@ -66,5 +67,6 @@
 
     .skills__text {
         size: 15px;
+
     }
 }

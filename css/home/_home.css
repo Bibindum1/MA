@@ -118,6 +118,7 @@
         object-fit: cover;
         width: 300px;
         height: 350px;
+        gap: 30px;
     }
 
     .home__text:not(:last-child) {
@@ -163,6 +164,10 @@
 
     .home__content {
         text-align: center;
+    }
+
+    .home{
+        margin-bottom: 50px;
     }
 
 }
