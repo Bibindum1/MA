@@ -7,25 +7,25 @@
 .home__inner {
 
     display: flex;
-    gap: 124px;
+    gap: 60px;
     align-items: center;
     justify-content: space-between;
 }
 
-.home__title {
+.home__content {
+    max-width: 575px;
+    width: 100%;
+}
 
-    width: 500px;
+.home__title {
     font-size: 60px;
     max-width: 480px;
-    width: 100%;
     line-height: 97%;
     margin-bottom: 40px;
 }
 
 
 .home__text {
-
-    width: 400px;
     font-size: 32px;
     color: var(--gray);
 }
@@ -33,11 +33,6 @@
 .home__text:not(:last-child) {
 
     margin-bottom: 34px;
-}
-
-.home__content {
-
-    max-width: 480px;
 }
 
 @media (max-width: 1200px) {
@@ -166,9 +161,8 @@
         text-align: center;
     }
 
-    .home{
+    .home {
         margin-bottom: 50px;
     }
 
 }
-
